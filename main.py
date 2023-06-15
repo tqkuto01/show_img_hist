@@ -9,6 +9,13 @@ img_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Mount_Fuji_
 
 im = imread(img_url)
 
+
+st.write(pd.DataFrame({
+    'first column': [2, 4, 6, 8],
+    'second column': [10, 20, 30, 40],
+}))
+
+
 st.image(im, caption='image from wikimedia commons',
          use_column_width=True)
 
