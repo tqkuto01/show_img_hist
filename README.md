@@ -18,3 +18,5 @@ To stop the container,
 ```bash:
 docker compose down
 ```
+
+CI/CD の課題の確認
